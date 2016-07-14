@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "landing.page.js",
+  "sourceRoot": "",
+  "sources": [
+    "landing.page.ts"
+  ],
+  "names": [
+    "LandingPage",
+    "LandingPage.constructor"
+  ],
+  "mappings": ";;;;;;;;;;;AAAA,qBAA0B,eAE1B,CAAC,CAFwC;AAEzC;IAAAA;IAMAC,CAACA;IANDD;QAACA,gBAASA,CAACA;YACPA,QAAQA,EAAEA,cAAcA;YACxBA,QAAQA,EAAEA,0BAA0BA;SACvCA,CAACA;;oBAGDA;IAADA,kBAACA;AAADA,CAACA,AAND,IAMC;AADY,mBAAW,cACvB,CAAA"
+}

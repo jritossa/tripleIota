@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
-import {Router,ROUTER_DIRECTIVES} from '@angular/router';
+import { Router,ROUTER_DIRECTIVES } from '@angular/router';
+
+const template = require('./app.component.html');
 
 @Component({
     selector: 'my-app',
-    templateUrl: 'app/app.component.html',
+    template: template,
     directives: [ROUTER_DIRECTIVES]
 })
 

@@ -1,5 +1,5 @@
 import {RouterConfig, provideRouter} from '@angular/router'
-import {LandingPage} from './landing/landing.page'
+import {LandingPage} from './landing'
 
 const routes:RouterConfig = [
     {
