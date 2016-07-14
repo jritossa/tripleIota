@@ -25,13 +25,12 @@ var AppComponent = (function () {
     function AppComponent(router) {
         this.router = router;
     }
-
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
             template: template,
             directives: [router_1.ROUTER_DIRECTIVES]
-        }),
+        }), 
         __metadata('design:paramtypes', [router_1.Router])
     ], AppComponent);
     return AppComponent;

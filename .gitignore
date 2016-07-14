@@ -16,5 +16,5 @@ node_modules
 typings
 
 # Compiled js files #
-app/**/*.js
-app/**/*.js.map
+src/**/*.js
+src/**/*.js.map

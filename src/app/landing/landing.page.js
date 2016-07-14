@@ -22,12 +22,11 @@ var core_1 = require("@angular/core");
 var LandingPage = (function () {
     function LandingPage() {
     }
-
     LandingPage = __decorate([
         core_1.Component({
             selector: 'landing-page',
             template: 'This is the landing page'
-        }),
+        }), 
         __metadata('design:paramtypes', [])
     ], LandingPage);
     return LandingPage;
