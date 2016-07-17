@@ -1,0 +1,123 @@
+<div class="js-sidebar-content">
+  <header class="logo hidden-sm-down">
+    <a href="index.html">Triple Iota</a>
+  </header>
+  <!-- seems like lots of recent admin template have this feature of user info in the sidebar.
+       looks good, so adding it and enhancing with notifications -->
+  <div class="sidebar-status hidden-md-up">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <span class="thumb-sm avatar pull-xs-right">
+        <img class="img-circle" src="assets/images/people/a5.jpg" alt="...">
+              </span>
+      <!-- .circle is a pretty cool way to add a bit of beauty to raw data.
+           should be used with bg-* and text-* classes for colors -->
+              <span class="circle bg-warning fw-bold text-gray-dark">
+                  13
+              </span>
+      &nbsp;
+      Philip <strong>Smith</strong>
+      <b class="caret"></b>
+    </a>
+    <!-- #notifications-dropdown-menu goes here when screen collapsed to xs or sm -->
+  </div>
+  <!-- main notification links are placed inside of .sidebar-nav -->
+  <ul class="sidebar-nav">
+    <li>
+      <a [routerLink]=" ['Dashboard'] ">
+      <span class="icon">
+          <i class="fa fa-home"></i>
+      </span>
+        Home
+      </a>
+    </li>
+
+    <li>
+      <a [routerLink]=" ['AnotherPage'] ">
+      <span class="icon">
+          <i class="fa fa-user"></i>
+      </span>
+        Profile
+      </a>
+    </li>
+
+    <li>
+      <a [routerLink]=" ['AnotherPage'] ">
+      <span class="icon">
+          <i class="fa fa-pie-chart"></i>
+      </span>
+        Breakdown
+      </a>
+    </li>
+  </ul>
+  <h5 class="sidebar-nav-title">Pages <a class="action-link" href="#"><i class="glyphicon glyphicon-plus"></i></a></h5>
+  <!-- some styled links in sidebar. ready to use as links to email folders, projects, groups, etc -->
+  <ul class="sidebar-labels">
+    <li>
+      <a href="#">
+        <!-- yep, .circle again -->
+        <i class="fa fa-circle text-warning mr-xs"></i>
+        <span class="label-name">News Feed</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="fa fa-circle text-gray mr-xs"></i>
+        <span class="label-name">My Investments</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="fa fa-circle text-danger mr-xs"></i>
+        <span class="label-name">Fund Q&As</span>
+      </a>
+    </li>
+  </ul>
+
+
+  <h5 class="sidebar-nav-title">Trending Funds</h5>
+  <!-- A place for sidebar notifications & alerts -->
+  <div class="sidebar-alerts">
+
+
+    <div class="alert fade in">
+      <a href="#" class="close" data-dismiss="alert" aria-hidden="true">&times;</a>
+      <span class="text-white fw-semi-bold">Fund #1</span> <br>
+      <div class="bg-gray-transparent progress-bar">
+        <progress class="progress progress-xs progress-bar-gray-light mt-xs mb-0" value="100" max="100" style="width: 16%"></progress>
+      </div>
+      <small>Net: £1,234 (+12%)</small>
+    </div>
+
+
+    <div class="alert fade in">
+      <a href="#" class="close" data-dismiss="alert" aria-hidden="true">&times;</a>
+      <span class="text-white fw-semi-bold">Fund #2</span> <br>
+      <div class="bg-gray-transparent progress-bar">
+        <progress class="progress progress-xs progress-danger mt-xs mb-0" value="100" max="100" style="width: 23%"></progress>
+      </div>
+      <small>Provide required notes</small>
+    </div>
+  </div>
+
+
+  <h5 class="sidebar-nav-title">Trending Crowd Funds</h5>
+  <!-- A place for sidebar notifications & alerts -->
+  <div class="sidebar-alerts">
+    <div class="alert fade in">
+      <a href="#" class="close" data-dismiss="alert" aria-hidden="true">&times;</a>
+      <span class="text-white fw-semi-bold">Fund #1</span> <br>
+      <div class="bg-gray-transparent progress-bar">
+        <progress class="progress progress-xs progress-bar-gray-light mt-xs mb-0" value="100" max="100" style="width: 16%"></progress>
+      </div>
+      <small>Calculating x-axis bias... 65%</small>
+    </div>
+    <div class="alert fade in">
+      <a href="#" class="close" data-dismiss="alert" aria-hidden="true">&times;</a>
+      <span class="text-white fw-semi-bold">Personal Responsibility</span> <br>
+      <div class="bg-gray-transparent progress-bar">
+        <progress class="progress progress-xs progress-danger mt-xs mb-0" value="100" max="100" style="width: 23%"></progress>
+      </div>
+      <small>Provide required notes</small>
+    </div>
+  </div>
+</div>
